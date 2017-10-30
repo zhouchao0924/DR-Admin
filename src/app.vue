@@ -6,26 +6,20 @@
 
 <script>
     export default {
-        data () {
+        data() {
             return {
                 theme: this.$store.state.theme
             };
         },
-        mounted () {
-
-        },
-        beforeDestroy () {
-
-        },
-        methods: {
-
-        }
+        mounted() {},
+        beforeDestroy() {},
+        methods: {}
     };
 </script>
 
 <style>
-.app-main{
-    width: 100%;
-    height: 100%;
-}
+    .app-main {
+        width: 100%;
+        height: 100%;
+    }
 </style>

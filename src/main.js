@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import iView from 'iview';
 import VueRouter from 'vue-router';
-import {routers, otherRouter, appRouter} from './router';
+import { routers, otherRouter, appRouter } from './router';
 import Vuex from 'vuex';
 import Util from './libs/util';
 import App from './app.vue';
