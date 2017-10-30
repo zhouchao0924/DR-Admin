@@ -15,28 +15,28 @@
             </Row>
         </Col>
         <!-- <Col span="4" class="height-100">
-            <Row type="flex" justify="center" align="middle" class="infor-icon-row height-100">
-                <Icon @click.native="showItemInfor" type="information-circled" size="20"></Icon>
-            </Row>
-        </Col> -->
+                <Row type="flex" justify="center" align="middle" class="infor-icon-row height-100">
+                    <Icon @click.native="showItemInfor" type="information-circled" size="20"></Icon>
+                </Row>
+            </Col> -->
     </Row>
 </template>
 
 <script>
-export default {
-    name: 'toDoListItem',
-    data () {
-        return {
-            todoitem: false
-        };
-    },
-    props: {
-        content: String
-    },
-    methods: {
-        handleHasDid () {
-            this.todoitem = !this.todoitem;
+    export default {
+        name: 'toDoListItem',
+        data() {
+            return {
+                todoitem: false
+            };
+        },
+        props: {
+            content: String
+        },
+        methods: {
+            handleHasDid() {
+                this.todoitem = !this.todoitem;
+            }
         }
-    }
-};
+    };
 </script>

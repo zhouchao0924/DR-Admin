@@ -16,8 +16,8 @@
             <div class="main-header">
                 <div class="navicon-con">
                     <Button :style="{transform: 'rotateZ(' + (this.hideMenuText ? '-90' : '0') + 'deg)'}" type="text" @click="toggleClick">
-                                                    <Icon type="navicon" size="32"></Icon>
-                                                </Button>
+                        <Icon type="navicon" size="32"></Icon>
+                    </Button>
                 </div>
                 <div class="header-middle-con">
                     <div class="main-breadcrumb">
